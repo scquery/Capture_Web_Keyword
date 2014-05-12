@@ -26,7 +26,7 @@ if(($resp->code()>=200 && $resp->decoded_content=~m/Search\sfound\s([\d,]+)\site
   }
 else
   {
-   print "In the 51job,We did't find the keyword. \n";
+   print "In the symantec forum,We did't find the keyword. \n";
   }
 }
 print "Now Let's print the result\n";
